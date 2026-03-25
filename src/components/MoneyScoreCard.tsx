@@ -1,6 +1,6 @@
 import { useFinance } from '@/context/FinanceContext';
 import { motion } from 'framer-motion';
-
+//score card details
 export function MoneyScoreCard() {
   const { score } = useFinance();
 
