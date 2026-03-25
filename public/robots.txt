@@ -1,4 +1,3 @@
-//external allowance
 User-agent: Googlebot
 Allow: /
 

@@ -1,157 +1,63 @@
-**“FinPilot AI – Personal Money Mentor”**.
+# 💰 FinPilot AI – Personal Money Mentor
 
-
-
-## 🧩 Core Features
-
-### 1. Money Health Score
-
-* Collect user inputs: salary, expenses, savings, debts, goals
-* Calculate a score out of 100 based on:
-
-  * Emergency fund
-  * Savings rate
-  * Debt ratio
-  * Investment level
-* Display score with visual breakdown (charts)
+FinPilot AI is an AI-powered personal finance mentor designed to help users plan, track, and improve their financial life with actionable insights, intelligent automation, and dynamic task execution.
 
 ---
 
-### 2. AI Financial Planner (FIRE Planner)
+## 🚀 Problem Statement
 
-* Generate a personalized monthly plan:
-
-  * SIP investment suggestions
-  * Emergency fund plan
-  * Debt reduction strategy
-* Show timeline (month-by-month roadmap)
+95% of Indians lack structured financial planning.  
+Existing tools provide data but fail to guide users with clear actions.
 
 ---
 
-### 3. AI Financial To-Do Engine (IMPORTANT)
+## 💡 Solution
 
-* Automatically generate tasks based on user data
-* Example tasks:
-
-  * “Save ₹10,000 this month”
-  * “Invest ₹5,000 in SIP”
-  * “Pay credit card before 25th”
-* Each task must include:
-
-  * priority (high/medium/low)
-  * deadline
-  * impact (how it improves financial health)
-* Tasks should dynamically update when user data changes
-* Include task completion tracking and progress %
+FinPilot AI transforms financial data into:
+- 📊 Clear insights  
+- 📅 Personalized plans  
+- ✅ Actionable tasks  
+- 💬 Intelligent financial guidance  
 
 ---
 
-### 4. AI Chat Mentor
+## 🧠 Key Features
 
-* Chat interface where user can ask:
-
-  * “Can I afford a car?”
-  * “How to save tax?”
-  * “Where should I invest?”
-* Use LLM API to generate contextual responses based on user profile
+### 📊 Money Health Score
+- Score out of 100
+- Based on savings, debt, investments, and emergency fund
+- Visual breakdown for easy understanding
 
 ---
 
-### 5. Tax Optimizer
-
-* Compare old vs new tax regime
-* Suggest deductions and tax-saving strategies
-* Output clear savings amount
-
----
-
-### 6. Dashboard UI
-
-* Sections:
-
-  * Money Score (top)
-  * Charts (expenses, savings)
-  * AI Plan
-  * To-Do Tasks (highlighted)
-* Clean, modern, mobile-first UI
+### 📅 AI Financial Planner
+- Personalized roadmap
+- SIP recommendations
+- Emergency fund strategy
+- Debt reduction plan
 
 ---
 
-## 🧠 Architecture (IMPORTANT)
-
-Use a modular multi-agent backend:
-
-* Profile Agent → stores user data
-* Analysis Agent → calculates metrics
-* Planning Agent → generates roadmap
-* Task Agent → generates dynamic to-do list
-* Chat Agent → handles user queries
+### ✅ AI To-Do Engine (Core Feature)
+- Converts financial plans into actionable tasks
+- Dynamic updates based on user data
+- Includes:
+  - Priority
+  - Deadline
+  - Impact tracking
 
 ---
 
-## 🛠 Tech Stack
-
-Frontend:
-
-* React (with Vite or Next.js)
-* Tailwind CSS
-* Chart.js or Recharts
-
-Backend:
-
-* Python (FastAPI)
-* REST API endpoints
-
-AI:
-
-* OpenAI API (or equivalent LLM)
-* Prompt-based reasoning for financial advice
-
-Database:
-
-* SQLite or PostgreSQL
+### 💬 AI Chat Mentor
+- Ask questions like:
+  - “Can I afford a car?”
+  - “How to save tax?”
+- Context-aware responses using AI
 
 ---
 
-## 🎨 UI/UX Requirements
-
-* Modern fintech style (like Groww / Zerodha)
-* Soft shadows, rounded cards, clean layout
-* Use icons and color-coded priorities
-* Responsive design (mobile + desktop)
+### 💰 Tax Optimizer
+- Old vs New regime comparison
+- Suggests tax-saving strategies
 
 ---
-
-## 📊 Bonus Features (if possible)
-
-* Daily AI nudges (“You overspent ₹500 this week”)
-* Gamification (streaks, progress bar)
-* “Impact per task” (future wealth increase)
-
----
-
-## 🔐 Constraints
-
-* Keep logic simple but realistic
-* Avoid fake claims — show calculated outputs
-* Use mock data where needed
-
----
-
-## 📁 Output Requirements
-
-* Full working code (frontend + backend)
-* Clean folder structure
-* README with setup instructions
-* Sample data for testing
-
----
-
-## 🎯 Priority
-
-Focus on:
-
-1. Working To-Do Engine
-2. Money Score + Dashboard
-3. AI Chat integration
-
