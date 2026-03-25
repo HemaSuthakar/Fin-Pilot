@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useFinance } from '@/context/FinanceContext';
 import { Button } from '@/components/ui/button';
 import { Plus, AlertTriangle, ArrowRight } from 'lucide-react';
-
+//spending track
 export function SpendingEditor() {
   const { spending, updateSpending, debts, updateDebt, addDebt, debtPriority, profile, plan } = useFinance();
   const total = spending.reduce((sum, entry) => sum + entry.amount, 0);
