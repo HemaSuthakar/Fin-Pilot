@@ -1,7 +1,7 @@
 import { useFinance } from '@/context/FinanceContext';
 import { motion } from 'framer-motion';
 import type { UserProfile } from '@/types/finance';
-
+//Required Details
 const fields: { key: keyof UserProfile; label: string; prefix?: string; type?: string }[] = [
   { key: 'name', label: 'Name', type: 'text' },
   { key: 'age', label: 'Age' },
